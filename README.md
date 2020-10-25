@@ -1,0 +1,1 @@
+# skillFactory-hw-ajax-adamova
