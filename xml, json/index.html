@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>XML</h1>
+  <p>Задание 1: <br>Вам дана заготовка и результат, который вы должны получить. Ваша задача — написать код, который будет преобразовывать XML в JS-объект и выводить его в консоль.</p>
+  <h6>XML</h6>
+  <p><xmp>
+      <list>
+        <student>
+          <name lang="en">
+            <first>Ivan</first>
+            <second>Ivanov</second>
+          </name>
+          <age>35</age>
+          <prof>teacher</prof>
+        </student>
+        <student>
+          <name lang="ru">
+            <first>Петр</first>
+            <second>Петров</second>
+          </name>
+          <age>58</age>
+          <prof>driver</prof>
+        </student>
+      </list>
+    </xmp></p>
+    
+  <h6>JSON</h6>
+  <p><xmp>
+    {
+      list: [
+        { name: 'Ivan Ivanov', age: 35, prof: 'teacher', lang: 'en' },
+        { name: 'Петр Петров', age: 58, prof: 'driver', lang: 'ru' },
+      ]
+    }
+  </xmp></p>
+  <hr>
+  <p>Задание 2: <br>Вам дана заготовка и результат, который вы должны получить. Ваша задача — написать код, который будет преобразовывать JSON в JS-объект и выводить его в консоль.</p>
+  <h6>JSON</h6>
+  <p><xmp>
+    {
+      "list": [
+       {
+        "name": "Petr",
+        "age": "20",
+        "prof": "mechanic"
+       },
+       {
+        "name": "Vova",
+        "age": "60",
+        "prof": "pilot"
+       }
+      ]
+     }
+    </xmp></p>
+    
+  <h6>JS-объект</h6>
+  <p><xmp>
+    {
+      list: [
+        { name: 'Petr', age: 20, prof: 'mechanic' },
+        { name: 'Vova', age: 60, prof: 'pilot' },
+      ]
+    }
+  </xmp></p>
+    
+  
+  <a href="../index.html">Вернуться на главную страницу</a>
+  <script src="js.js"></script>
+</body>
+</html>
