@@ -34,10 +34,11 @@ function getImg(page, limit, url){
   		.then((response) => {
 			images=`<img src="${response.url}" alt="">`
 			out.innerHTML=images
-			localStorage.setItem('responseUrl', response.url)})
+			localStorage.setItem('addImg', images)})
 		
 		.catch(() => { console.log('error') });
 }
-if (localStorage==!undefined) {
-	out.innerHTML=localStorage.getItem('responseUrl', response.url)
+console.log(images)
+if (localStorage.getItem('addImg')!==null) {
+	out.innerHTML=localStorage.getItem('addImg', images)
 }
